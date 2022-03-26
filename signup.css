@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT sans";
+  font-weight: 800;
+  text-align: center;
+  font-size: 22px;
+}
+
+.small-container {
+  margin-bottom: 10px;
+}
+.container {
+  width: 45%;
+  margin: 0 auto;
+  padding: 50px 0;
+  border-top: solid 3px #343a40;
+  border-bottom: solid 3px #343a40;
+}
+.container:hover {
+  box-shadow: 1px 1px 10px 0.5px #343a40;
+}
+.input-fields {
+  border: #343a40 2px solid;
+  width: auto;
+}
+
+.form-container {
+  margin-bottom: 30px;
+  position: relative;
+}
+.small-container {
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 15px;
+  margin: 5px;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  background-color: #1864ab;
+}
+.button:hover {
+  background-color: #343a40;
+}
+
+/*  Temporary Styles */
+
+nav {
+  height: 80px;
+  width: 100%;
+  color: white;
+  background-color: #1864ab;
+  margin-bottom: 10px;
+}
